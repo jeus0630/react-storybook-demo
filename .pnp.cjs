@@ -46,6 +46,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.0.3"],\
             ["@vitejs/plugin-react", "npm:1.3.2"],\
             ["babel-loader", "virtual:bc426a48d5edd71e4862f87cd846cb8b9c7c6ea73e3e1a53c97d2619d39f565d086613c208e0a20e4faabdff665cb0b86e2d8873f3eeb3d4f9af7d9c8ebe6d04#npm:8.2.5"],\
+            ["core-js", "npm:3.22.4"],\
             ["react", "npm:18.1.0"],\
             ["react-dom", "virtual:bc426a48d5edd71e4862f87cd846cb8b9c7c6ea73e3e1a53c97d2619d39f565d086613c208e0a20e4faabdff665cb0b86e2d8873f3eeb3d4f9af7d9c8ebe6d04#npm:18.1.0"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=bda367"],\
@@ -15222,6 +15223,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.0.3"],\
             ["@vitejs/plugin-react", "npm:1.3.2"],\
             ["babel-loader", "virtual:bc426a48d5edd71e4862f87cd846cb8b9c7c6ea73e3e1a53c97d2619d39f565d086613c208e0a20e4faabdff665cb0b86e2d8873f3eeb3d4f9af7d9c8ebe6d04#npm:8.2.5"],\
+            ["core-js", "npm:3.22.4"],\
             ["react", "npm:18.1.0"],\
             ["react-dom", "virtual:bc426a48d5edd71e4862f87cd846cb8b9c7c6ea73e3e1a53c97d2619d39f565d086613c208e0a20e4faabdff665cb0b86e2d8873f3eeb3d4f9af7d9c8ebe6d04#npm:18.1.0"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=bda367"],\
