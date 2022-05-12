@@ -1,8 +1,9 @@
 import Button from './Button';
-
+import Center from '../center/Center';
 export default {
     title: 'form/Button',
-    component: Button
+    component: Button,
+    decorators: [(story: any) => <Center>{story()}</Center>]
 }
 
 export const Primary = () => <Button variant='primary' > Primary </Button>
