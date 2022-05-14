@@ -20,3 +20,11 @@ Danger.args = {
     color: 'error',
     children: 'Danger',
 }
+
+export const Primary = () =>
+    <Button
+        variant="contained"
+        color="primary"
+        onClick={() => { console.log('onClick') }}>
+        Primary
+    </Button>

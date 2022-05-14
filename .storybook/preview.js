@@ -1,4 +1,6 @@
 import { ThemeProvider } from '@mui/material/styles';
+import '@storybook/addon-console';
+import { withConsole } from '@storybook/addon-console';
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -14,4 +16,7 @@ export const parameters = {
   },
 }
 
-export const decorators = [(Story) => <ThemeProvider><Story /></ThemeProvider>]
+export const decorators = [
+  (Story) => <ThemeProvider><Story /></ThemeProvider>,
+  (storyFn, context) => withConsole()(storyFn)(context)
+]
