@@ -1,10 +1,12 @@
+import { ComponentMeta } from '@storybook/react';
+
 import Button from './Button';
 import Center from '../center/Center';
 export default {
     title: 'form/Button',
     component: Button,
-    decorators: [(story: any) => <Center>{story()}</Center>]
-}
+    decorators: [(Story) => <Center><Story></Story></Center>]
+} as ComponentMeta<typeof Button>;
 
 export const Primary = () => <Button variant='primary' > Primary </Button>
 export const Secondary = () => <Button variant='secondary' > Secondary </Button>
